@@ -15,7 +15,22 @@
   </head>
   <body>
     <main class="main-container">
-      <header></header>
+      <header>
+        <div class="search__div">
+          <input type="text" class="search__input" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="user__div">
+          <div class="text">
+            <h2 class="username">Pedro Moreira</h2>
+            <p>Trainer</p>
+          </div>
+          <div class="user__image">
+            <img src="./assets/profilepicture.png" alt="ash" />
+            <div class="img_effect"></div>
+          </div>
+        </div>
+      </header>
       <div class="sidebar">
         <div class="logo">
           <i class="fa-brands fa-squarespace"></i>
@@ -23,23 +38,45 @@
         </div>
         <div class="nav">
           <ul class="sidenav">
-            <li class="nav-items"><a href="#" class="nav-links">Home</a></li>
-            <li class="nav-items"><a href="#" class="nav-links">Profile</a></li>
             <li class="nav-items">
-              <a href="#" class="nav-links">Messages</a>
+              <a href="#" class="nav-links">
+                <i class="fa-solid fa-house"></i> Home</a
+              >
             </li>
-            <li class="nav-items"><a href="#" class="nav-links">History</a></li>
-            <li class="nav-items"><a href="#" class="nav-links">Tasks</a></li>
+
             <li class="nav-items">
-              <a href="#" class="nav-links">Communities</a>
+              <a href="#" class="nav-links"
+                ><i class="fa-solid fa-message"></i> Messages</a
+              >
+            </li>
+            <li class="nav-items">
+              <a href="#" class="nav-links"
+                ><i class="fa-solid fa-clock-rotate-left"></i> History</a
+              >
+            </li>
+            <li class="nav-items">
+              <a href="#" class="nav-links"
+                ><i class="fa-solid fa-newspaper"></i> Tasks</a
+              >
+            </li>
+            <li class="nav-items">
+              <a href="#" class="nav-links"
+                ><i class="fa-solid fa-people-group"></i> Communities</a
+              >
             </li>
           </ul>
         </div>
         <div class="settings-nav">
           <ul>
-            <li><a href="#">Settings</a></li>
-            <li><a href="#">Support</a></li>
-            <li><a href="#">Privacy</a></li>
+            <li>
+              <a href="#"><i class="fa-solid fa-gear"></i> Settings</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-headset"></i> Support</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-user-shield"></i> Privacy</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -49,3 +86,10 @@
     <script src="script.js"></script>
   </body>
 </html>
+
+<!-- 
+  HOME
+  MESSAGES
+  HISTORY
+
+ -->
