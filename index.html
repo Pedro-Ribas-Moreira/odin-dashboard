@@ -16,9 +16,15 @@
   <body>
     <main class="main-container">
       <header>
+        <div class="logo">
+          <div class="logo__div">
+            <i class="fa-solid fa-square-full first"></i>
+            <i class="fa-solid fa-square-full second"></i>
+          </div>
+        </div>
         <div class="search__div">
           <input type="text" class="search__input" />
-          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-magnifying-glass search__icon"></i>
         </div>
         <div class="user__div">
           <div class="text">
@@ -32,64 +38,44 @@
         </div>
       </header>
       <div class="sidebar">
-        <div class="logo">
-          <i class="fa-brands fa-squarespace"></i>
-          <h1>Dashboard</h1>
-        </div>
         <div class="nav">
           <ul class="sidenav">
             <li class="nav-items">
               <a href="#" class="nav-links">
-                <i class="fa-solid fa-house"></i> Home</a
-              >
+                <i class="fa-solid fa-house"></i
+              ></a>
             </li>
 
             <li class="nav-items">
               <a href="#" class="nav-links"
-                ><i class="fa-solid fa-message"></i> Messages</a
-              >
+                ><i class="fa-solid fa-message"></i
+              ></a>
+            </li>
+
+            <li class="nav-items">
+              <a href="#" class="nav-links"
+                ><i class="fa-solid fa-newspaper"></i
+              ></a>
             </li>
             <li class="nav-items">
               <a href="#" class="nav-links"
-                ><i class="fa-solid fa-clock-rotate-left"></i> History</a
-              >
-            </li>
-            <li class="nav-items">
-              <a href="#" class="nav-links"
-                ><i class="fa-solid fa-newspaper"></i> Tasks</a
-              >
-            </li>
-            <li class="nav-items">
-              <a href="#" class="nav-links"
-                ><i class="fa-solid fa-people-group"></i> Communities</a
-              >
+                ><i class="fa-solid fa-people-group"></i>
+              </a>
             </li>
           </ul>
         </div>
         <div class="settings-nav">
           <ul>
             <li>
-              <a href="#"><i class="fa-solid fa-gear"></i> Settings</a>
+              <a href="#"><i class="fa-solid fa-gear"></i> </a>
             </li>
             <li>
-              <a href="#"><i class="fa-solid fa-headset"></i> Support</a>
-            </li>
-            <li>
-              <a href="#"><i class="fa-solid fa-user-shield"></i> Privacy</a>
+              <a href="#"><i class="fa-solid fa-headset"></i> </a>
             </li>
           </ul>
         </div>
       </div>
-      <div class="content">
-        <div class="totals">
-          <div class="total__views"></div>
-          <div class="total__catches"></div>
-        </div>
-        <div class="content__subdiv">
-          <div class="list__info"></div>
-          <div class="graphic__info"></div>
-        </div>
-      </div>
+      <div class="content"></div>
     </main>
 
     <script src="script.js"></script>
