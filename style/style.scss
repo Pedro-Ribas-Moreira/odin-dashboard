@@ -295,6 +295,15 @@ header {
       height: 100%;
       width: 30%;
       background-color: #fff;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      #myChart {
+        width: auto;
+        max-width: 600px;
+        height: 100%;
+      }
     }
   }
 }
