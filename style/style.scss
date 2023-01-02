@@ -7,6 +7,7 @@
 }
 
 $sidebarcolor: #0ea5e9;
+
 body {
   height: 100vh;
   display: flex;
@@ -177,7 +178,7 @@ header {
 }
 .content {
   grid-area: content;
-  padding: 36px 24px;
+  padding: 24px 24px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -194,12 +195,13 @@ header {
     justify-content: space-between;
     height: 30%;
     margin-bottom: 24px;
+
     .total__div {
       flex: 1;
       min-width: min(250px, 50%);
       height: 100%;
       background-color: #fff;
-      padding: 8px 16px;
+      padding: 16px 16px;
       .div1 {
         position: relative;
         height: 80%;
@@ -227,6 +229,7 @@ header {
         }
         h4 {
           font-weight: lighter;
+          padding: 8px 0;
         }
         span {
           font-size: 2rem;
@@ -252,7 +255,8 @@ header {
   }
   .list {
     width: 100%;
-    height: 60%;
+    height: 100%;
+    overflow-y: hidden;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -270,13 +274,15 @@ header {
         border: none;
         font-family: "Roboto", sans-serif;
         width: 97%;
-
         text-align: center;
         border-collapse: collapse;
 
-        tr:first-child {
-          background: #fff;
-          border-bottom: 8px solid #fff;
+        // tr:first-child {
+        //   background: #fff;
+        //   border-bottom: 8px solid #fff;
+        // }
+        #tbody {
+          text-transform: capitalize;
         }
         tr {
           height: 60px;
@@ -300,9 +306,11 @@ header {
       flex-direction: column;
       justify-content: space-between;
       #myChart {
-        width: auto;
-        max-width: 600px;
-        height: 100%;
+        flex: 1;
+        padding: 12px 8px;
+        // width: 100%;
+        // max-width: 600px;
+        // height: 100%;
       }
     }
   }
