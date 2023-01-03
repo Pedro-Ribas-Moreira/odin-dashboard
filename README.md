@@ -85,7 +85,7 @@ Also, in this project, I decided to sharpen my skills with graphs and APIs.
 The chosen API was PokeAPI (https://pokeapi.co/) which provided the list of the pokemon and their details, and for the graph, I decided to go with a popular chart library: Chart Js.
 
 </p>
-<img src="./assets/img.png" alt="Logo" width="600" height="auto">
+<img src="./assets/img.png" alt="Logo" width="100%" height="auto">
 
 <!-- Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `Pedro-Ribas-Moreira`, `odin-foundations-rock-paper-scissors`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `Pokemon Dashboard`, `project_description` -->
 
